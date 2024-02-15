@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-#script to display active ipv4
-
-echo "127.0.0.1"
-hostname -I | tr " " "\n" | head -n -1
