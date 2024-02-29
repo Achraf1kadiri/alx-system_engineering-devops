@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# display all active ipv4s
+
+echo "127.0.0.1"
+hostname -I | tr " " "\n" | head -n -1
